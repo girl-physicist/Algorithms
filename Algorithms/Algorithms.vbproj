@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EuclideanAlgorithmForm.Designer.vb">
+      <DependentUpon>EuclideanAlgorithmForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EuclideanAlgorithmForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -95,13 +101,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SimpleAlgorithmsForm.Designer.vb">
+      <DependentUpon>SimpleAlgorithmsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleAlgorithmsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZenoAlgorithmForm.Designer.vb">
+      <DependentUpon>ZenoAlgorithmForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZenoAlgorithmForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EuclideanAlgorithmForm.resx">
+      <DependentUpon>EuclideanAlgorithmForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleAlgorithmsForm.resx">
+      <DependentUpon>SimpleAlgorithmsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZenoAlgorithmForm.resx">
+      <DependentUpon>ZenoAlgorithmForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
